@@ -10,7 +10,7 @@
 
 
 header {
-    background-color: #675546;
+    background-color: #1d1c1b;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -38,7 +38,7 @@ header {
 }
 
 .navigation a:hover {
-    color: #070125;         
+    color: #ffffff;         
 }
 
 section {
@@ -50,8 +50,8 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url("back.jpg") repeat-x, repeat-y;
-    background-size: 100% 100%;
+    background: url("black1.jpg") no-repeat;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     
@@ -59,7 +59,7 @@ section {
 
 .main h2 {
     
-    color: #8d0f0f;
+    color: #fcfcfc;
     font-size: 1.4em;
     font-weight: 500;
 }
@@ -73,7 +73,7 @@ section {
 }
 
 .main h3 {
-    color: #05001d;
+    color: #c5c1d7;
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -101,7 +101,7 @@ section {
 }
 
 .social-icons a {
-    color: #090237;
+    color: #c5c1e2;
     font-size: 1.7em;
     padding-right: 30px;
 }
@@ -123,7 +123,7 @@ section {
 }
 
 .card {
-    background-color: #fff;
+    background-color: #ffffff;
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
@@ -155,14 +155,11 @@ section {
 }
 
 .projects {
-    background: url("back.jpg") no-repeat center center fixed;
-    /* background-size: 800px 400px;
-    background-position: center;
-    background-attachment: fixed; */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    /* background: url("b.jpg"); */
+    background-color: #121111;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .projects .content {
@@ -200,7 +197,7 @@ section {
 
 .project-category {
     font-size: 0.8em;
-    color: #18034d;
+    color: #000000;
 }
 
 .project-title {
@@ -213,7 +210,7 @@ section {
 
 .more-details {
     text-decoration: none;
-    color: #fbfbfb;
+    color: #000000;
 }
 
 .more-details:hover {
@@ -225,7 +222,7 @@ section {
 }
 
 .contact .info h3 {
-    color: #e40202;
+    color: #000000;
 }
 
 .contact .info p {
@@ -233,7 +230,7 @@ section {
 }
 
 .footer {
-    background-color: #fd9f47;
+    background-color: #171615;
     color: #ffffff;
     padding: 2em;
     display: flex;
